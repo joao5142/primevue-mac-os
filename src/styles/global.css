@@ -1,0 +1,14 @@
+html,
+body,
+main,
+#app {
+  height: 100dvh;
+  overflow-y: hidden;
+}
+body {
+  background: url(../assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

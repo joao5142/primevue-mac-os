@@ -1,0 +1,12 @@
+@layer reset, tailwind-base , framework, primevue, tailwind-utilities, custom, overrides;
+
+@import url(./global.css) layer(reset);
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
