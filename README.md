@@ -28,7 +28,7 @@
 
 <div>
 	<h4  style="display: inline_block">Visualização do site :</h4>
-	<a style="display: inline_block" target="blank" href="">
+	<a style="display: inline_block" target="blank" href="https://primevue-mac-os.vercel.app/auth/login">
 			Preview na Vercel
 	</a>
 	<br/><br/>
