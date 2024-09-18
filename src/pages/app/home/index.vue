@@ -49,7 +49,9 @@
 import { onMounted, onBeforeUnmount } from 'vue'
 import TerminalService from 'primevue/terminalservice'
 import { ref } from 'vue'
+import { useRouter } from 'vue-router'
 
+const router = useRouter()
 const selectedId = ref(null)
 const menu = ref()
 const displayTerminal = ref(false)
@@ -218,6 +220,12 @@ const menubarItems = ref([
       executeDarkModeToggle()
     },
   },
+  {
+    label: 'Quit',
+    command: () => {
+      handleLogout()
+    },
+  },
 ])
 
 function onDockItemClick(event: any, item: any) {
@@ -263,6 +271,10 @@ function commandHandler(text: string) {
   }
 
   TerminalService.emit('response', response)
+}
+
+function handleLogout() {
+  router.push('/auth/login')
 }
 
 onMounted(() => {
