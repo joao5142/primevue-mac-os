@@ -1,4 +1,4 @@
-<h1>Portfolio</h1>
+<h1>Projeto Mac O</h1>
 <h4>🚀 Projeto Mac Os</h4>
 
 <h2>🚧 Status do projeto</h2>
