@@ -1,18 +1,48 @@
-# Vue 3 + TypeScript + Vite
+<h1>Portfolio</h1>
+<h4>🚀 Projeto Mac Os</h4>
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<h2>🚧 Status do projeto</h2>
+<p>Em progresso</p>
 
-## Recommended IDE Setup
+<h2>🖥️ Pré-requisitos e como rodar a aplicação/testes</h2>
+<p>Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com) </p>
+<h3>Rodando a Aplicação</h3>
+<ul>
+	<li>Clone esse repositório(git clone)</li>
+	<li>Instale as dependências(npm i | yarn)</li>
+	<li>No terminal , digite o comando (npm run dev | yarn dev).</li>
+</ul>
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<h2>🤖 Tecnologias Utilizadas</h2>
+<div style="display: inline_block">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D">
+</div>
 
-## Type Support For `.vue` Imports in TS
+<h2>🖼️ Demonstração da aplicação</h2>
+<img margin-bottom="20px" src="/public/readme/1.png">
+<img margin-bottom="20px" src="/public/readme/2.png">
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+<div>
+	<h4  style="display: inline_block">Visualização do site :</h4>
+	<a style="display: inline_block" target="blank" href="">
+			Preview na Vercel
+	</a>
+	<br/><br/>
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+</div>
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+<!-- <h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="https://portfolio-davi-inky.vercel.app/">Preview no Vercel</a> -->
+<!-- <h4  style="display: inline_block">Visualização do site :</h4><a style="display: inline_block" target="blank" href="https://www.figma.com/design/6mt2adopvMRBRmcp8U3God/Portfolio?node-id=0-1&t=udQkqzOIq8GWrH81-0">Visualizar no Figma</a> -->
+
+<h2>🧑🏻‍ Autor</h2>
+<p>Feito por João paulo</p>
+<a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-8b38b8254/">
+	<img src="https://img.shields.io/badge/-João-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/jo%C3%A3o-paulo-ferreira-neto-467880182/">
+</a>
+<a href="mailto:joaopauloneto3687@gmail.com">
+	<img src="https://img.shields.io/badge/-joaopauloneto3687@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:joaopauloneto3687@gmail.com">
+</a>
